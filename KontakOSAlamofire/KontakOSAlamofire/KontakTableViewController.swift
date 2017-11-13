@@ -14,6 +14,13 @@ import SwiftyJSON
 
 
 class KontakTableViewController: UITableViewController {
+    
+    var loans = [ModelKontak]()
+    
+    var namaSelected:String?
+    var useSelected:String?
+    var amountSelected:Int?
+    var countrySelected: String?
 
     var arrRes = [[String: AnyObject]]()//array dictionary
     override func viewDidLoad() {

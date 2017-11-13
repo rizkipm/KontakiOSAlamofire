@@ -16,6 +16,8 @@
 		9A25D12D1FB94B870011CFF5 /* KontakOSAlamofireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25D12C1FB94B870011CFF5 /* KontakOSAlamofireUITests.swift */; };
 		9ACB0DAD1FB953DA009C25E5 /* KontakTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB0DAC1FB953DA009C25E5 /* KontakTableViewCell.swift */; };
 		9ACB0DAF1FB95490009C25E5 /* KontakTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB0DAE1FB95490009C25E5 /* KontakTableViewController.swift */; };
+		9ACB0DB11FB97A24009C25E5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB0DB01FB97A24009C25E5 /* DetailViewController.swift */; };
+		9ACB0DB31FB97A78009C25E5 /* ModelKontak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB0DB21FB97A78009C25E5 /* ModelKontak.swift */; };
 		DAED7E44E584EF15D774AD04 /* Pods_KontakOSAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A06D3E5C5F1E745694B48 /* Pods_KontakOSAlamofire.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		9A25D12E1FB94B870011CFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ACB0DAC1FB953DA009C25E5 /* KontakTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontakTableViewCell.swift; sourceTree = "<group>"; };
 		9ACB0DAE1FB95490009C25E5 /* KontakTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontakTableViewController.swift; sourceTree = "<group>"; };
+		9ACB0DB01FB97A24009C25E5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9ACB0DB21FB97A78009C25E5 /* ModelKontak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelKontak.swift; sourceTree = "<group>"; };
 		DD00291E085B5CA9EB1D10C9 /* Pods-KontakOSAlamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KontakOSAlamofire.release.xcconfig"; path = "Pods/Target Support Files/Pods-KontakOSAlamofire/Pods-KontakOSAlamofire.release.xcconfig"; sourceTree = "<group>"; };
 		EF1A06D3E5C5F1E745694B48 /* Pods_KontakOSAlamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KontakOSAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -116,6 +120,8 @@
 				9A25D1181FB94B860011CFF5 /* Info.plist */,
 				9ACB0DAC1FB953DA009C25E5 /* KontakTableViewCell.swift */,
 				9ACB0DAE1FB95490009C25E5 /* KontakTableViewController.swift */,
+				9ACB0DB01FB97A24009C25E5 /* DetailViewController.swift */,
+				9ACB0DB21FB97A78009C25E5 /* ModelKontak.swift */,
 			);
 			path = KontakOSAlamofire;
 			sourceTree = "<group>";
@@ -349,7 +355,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A25D10F1FB94B860011CFF5 /* ViewController.swift in Sources */,
+				9ACB0DB31FB97A78009C25E5 /* ModelKontak.swift in Sources */,
 				9ACB0DAF1FB95490009C25E5 /* KontakTableViewController.swift in Sources */,
+				9ACB0DB11FB97A24009C25E5 /* DetailViewController.swift in Sources */,
 				9A25D10D1FB94B860011CFF5 /* AppDelegate.swift in Sources */,
 				9ACB0DAD1FB953DA009C25E5 /* KontakTableViewCell.swift in Sources */,
 			);
