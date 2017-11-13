@@ -14,6 +14,9 @@
 		9A25D1171FB94B860011CFF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A25D1151FB94B860011CFF5 /* LaunchScreen.storyboard */; };
 		9A25D1221FB94B870011CFF5 /* KontakOSAlamofireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25D1211FB94B870011CFF5 /* KontakOSAlamofireTests.swift */; };
 		9A25D12D1FB94B870011CFF5 /* KontakOSAlamofireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25D12C1FB94B870011CFF5 /* KontakOSAlamofireUITests.swift */; };
+		9ACB0DAD1FB953DA009C25E5 /* KontakTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB0DAC1FB953DA009C25E5 /* KontakTableViewCell.swift */; };
+		9ACB0DAF1FB95490009C25E5 /* KontakTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB0DAE1FB95490009C25E5 /* KontakTableViewController.swift */; };
+		DAED7E44E584EF15D774AD04 /* Pods_KontakOSAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A06D3E5C5F1E745694B48 /* Pods_KontakOSAlamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53ED7E7623DA5FFEE8592803 /* Pods-KontakOSAlamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KontakOSAlamofire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KontakOSAlamofire/Pods-KontakOSAlamofire.debug.xcconfig"; sourceTree = "<group>"; };
 		9A25D1091FB94B860011CFF5 /* KontakOSAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KontakOSAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A25D10C1FB94B860011CFF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A25D10E1FB94B860011CFF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		9A25D1281FB94B870011CFF5 /* KontakOSAlamofireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KontakOSAlamofireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A25D12C1FB94B870011CFF5 /* KontakOSAlamofireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontakOSAlamofireUITests.swift; sourceTree = "<group>"; };
 		9A25D12E1FB94B870011CFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACB0DAC1FB953DA009C25E5 /* KontakTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontakTableViewCell.swift; sourceTree = "<group>"; };
+		9ACB0DAE1FB95490009C25E5 /* KontakTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontakTableViewController.swift; sourceTree = "<group>"; };
+		DD00291E085B5CA9EB1D10C9 /* Pods-KontakOSAlamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KontakOSAlamofire.release.xcconfig"; path = "Pods/Target Support Files/Pods-KontakOSAlamofire/Pods-KontakOSAlamofire.release.xcconfig"; sourceTree = "<group>"; };
+		EF1A06D3E5C5F1E745694B48 /* Pods_KontakOSAlamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KontakOSAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAED7E44E584EF15D774AD04 /* Pods_KontakOSAlamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,8 @@
 				9A25D1201FB94B870011CFF5 /* KontakOSAlamofireTests */,
 				9A25D12B1FB94B870011CFF5 /* KontakOSAlamofireUITests */,
 				9A25D10A1FB94B860011CFF5 /* Products */,
+				BFA630B3D54FFF45C78DAAF7 /* Pods */,
+				A81F62D75BD063AF9723D6C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +114,8 @@
 				9A25D1131FB94B860011CFF5 /* Assets.xcassets */,
 				9A25D1151FB94B860011CFF5 /* LaunchScreen.storyboard */,
 				9A25D1181FB94B860011CFF5 /* Info.plist */,
+				9ACB0DAC1FB953DA009C25E5 /* KontakTableViewCell.swift */,
+				9ACB0DAE1FB95490009C25E5 /* KontakTableViewController.swift */,
 			);
 			path = KontakOSAlamofire;
 			sourceTree = "<group>";
@@ -125,6 +138,23 @@
 			path = KontakOSAlamofireUITests;
 			sourceTree = "<group>";
 		};
+		A81F62D75BD063AF9723D6C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF1A06D3E5C5F1E745694B48 /* Pods_KontakOSAlamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFA630B3D54FFF45C78DAAF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53ED7E7623DA5FFEE8592803 /* Pods-KontakOSAlamofire.debug.xcconfig */,
+				DD00291E085B5CA9EB1D10C9 /* Pods-KontakOSAlamofire.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A25D1311FB94B870011CFF5 /* Build configuration list for PBXNativeTarget "KontakOSAlamofire" */;
 			buildPhases = (
+				C1612DB58BB6A72E87D91249 /* [CP] Check Pods Manifest.lock */,
 				9A25D1051FB94B860011CFF5 /* Sources */,
 				9A25D1061FB94B860011CFF5 /* Frameworks */,
 				9A25D1071FB94B860011CFF5 /* Resources */,
+				C30B0F8354BC7A0E58AEEAE8 /* [CP] Embed Pods Frameworks */,
+				2D969F7D23DCFE9E1B74F705 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +287,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D969F7D23DCFE9E1B74F705 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KontakOSAlamofire/Pods-KontakOSAlamofire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1612DB58BB6A72E87D91249 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KontakOSAlamofire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C30B0F8354BC7A0E58AEEAE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KontakOSAlamofire/Pods-KontakOSAlamofire-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KontakOSAlamofire/Pods-KontakOSAlamofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A25D1051FB94B860011CFF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9A25D10F1FB94B860011CFF5 /* ViewController.swift in Sources */,
+				9ACB0DAF1FB95490009C25E5 /* KontakTableViewController.swift in Sources */,
 				9A25D10D1FB94B860011CFF5 /* AppDelegate.swift in Sources */,
+				9ACB0DAD1FB953DA009C25E5 /* KontakTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +515,7 @@
 		};
 		9A25D1321FB94B870011CFF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53ED7E7623DA5FFEE8592803 /* Pods-KontakOSAlamofire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +531,7 @@
 		};
 		9A25D1331FB94B870011CFF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD00291E085B5CA9EB1D10C9 /* Pods-KontakOSAlamofire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
